@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da82d29-1743-4390-a894-be8e8f6f80da" name="Default Changelist" comment="&quot;PersonClass&quot;">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/BankApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/BankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/BankApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/CurrentAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/GeneralAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/GeneralAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.vdab.banksystem.BankApp" />
+      <module name="MONEYINDABAMKFUNDAMENTALSTEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.vdab.banksystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -90,9 +110,25 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="381" y="249" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.835@0.23.1440.835" timestamp="1593788467407" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1593863788816">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1593870580477">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1593863788816" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1593870580477" />
+    <state width="1440" height="224" key="GridCell.Tab.0.bottom" timestamp="1593870807575">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1440" height="224" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1593870807575" />
+    <state width="1440" height="224" key="GridCell.Tab.0.center" timestamp="1593870807574">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1440" height="224" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1593870807574" />
+    <state width="1440" height="224" key="GridCell.Tab.0.left" timestamp="1593870807574">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1440" height="224" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1593870807574" />
+    <state width="1440" height="224" key="GridCell.Tab.0.right" timestamp="1593870807575">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1440" height="224" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1593870807575" />
   </component>
 </project>

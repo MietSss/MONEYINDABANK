@@ -1,6 +1,6 @@
 package be.vdab.banksystem;
 
-public class SavingsAccount {
+public class SavingsAccount extends CurrentAccount {
 
     private int totalAmountOnSavings;
     private int intrest;
@@ -9,15 +9,25 @@ public class SavingsAccount {
     private int amountForTransfer;
 
 
-    public SavingsAccount(String nameAccount, int totalAmountOnSavings) {
-    }
-
     public SavingsAccount(int totalAmountOnSavings) {
+        super();
         this.totalAmountOnSavings = totalAmountOnSavings;
     }
 
-    public SavingsAccount() {
+    public int getYearsOfInterest() {
+        return yearsOfInterest;
+    }
 
+    public void setYearsOfInterest(int yearsOfInterest) {
+        this.yearsOfInterest = yearsOfInterest;
+    }
+
+    public int getInterestRate() {
+        return interestRate;
+    }
+
+    public void setInterestRate(int interestRate) {
+        this.interestRate = interestRate;
     }
 
     public int getBudgetSavings() {

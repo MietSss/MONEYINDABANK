@@ -2,13 +2,12 @@ package be.vdab.banksystem;
 
 public abstract class GeneralAccount {
 
-    private int totalamount;
     private int transferBudget;
     private String accountName;
-    private int owner;
+    private String owner;
 
-    public GeneralAccount(int totalamount) {
-        this.totalamount = totalamount;
+
+    public GeneralAccount() {
 
     }
 
@@ -21,11 +20,11 @@ public abstract class GeneralAccount {
         this.accountName = accountName;
     }
 
-    public int getOwner() {
+    public String getOwner() {
         return owner;
     }
 
-    public void setOwner(int owner) {
+    public void setOwner(String owner) {
         this.owner = owner;
     }
 
@@ -33,13 +32,6 @@ public abstract class GeneralAccount {
         return transferBudget;
     }
 
-    public int getTotalamount() {
-        return totalamount;
-    }
-
-    public void setTotalamount(int totalamount) {
-        this.totalamount = totalamount;
-    }
 
     public int getTransferBudget() {
         return transferBudget;
@@ -48,4 +40,5 @@ public abstract class GeneralAccount {
     public void setTransferBudget(int transferBudget) {
         this.transferBudget = transferBudget;
     }
+
 }

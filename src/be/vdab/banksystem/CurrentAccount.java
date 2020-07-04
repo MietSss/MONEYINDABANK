@@ -2,23 +2,41 @@ package be.vdab.banksystem;
 
 public class CurrentAccount extends GeneralAccount{
     private int amountOnCurrentAccount;
-    private SavingsAccount savings1 = new SavingsAccount();
+    private SavingsAccount savingsAccount = new SavingsAccount(0);
+    private String owner;
 
-    public CurrentAccount(int totalamount) {
-        super(totalamount);
+    public CurrentAccount() {
+
     }
 
-    public CurrentAccount(int totalamount, int amountOnCurrentAccount, int totalAmountOnSavings) {
-        super(totalamount = amountOnCurrentAccount + totalAmountOnSavings);
-        this.amountOnCurrentAccount = amountOnCurrentAccount;
-        this.totalAmountOnSavings = totalAmountOnSavings;
-    }
-
-    public int getAmount() {
+    public int getAmountOnCurrentAccount() {
         return amountOnCurrentAccount;
     }
 
-    public void setAmount(int amount) {
-        this.amountOnCurrentAccount = amount;
+    public CurrentAccount(int amountOnCurrentAccount, String owner) {
+        this.amountOnCurrentAccount = amountOnCurrentAccount;
+        this.owner = owner;
+    }
+
+    public void setAmountOnCurrentAccount(int amountOnCurrentAccount) {
+        this.amountOnCurrentAccount = amountOnCurrentAccount;
+    }
+
+
+    public SavingsAccount getSavingsAccount() {
+        return savingsAccount;
+    }
+
+    public void setSavingsAccount(SavingsAccount savingsAccount) {
+        this.savingsAccount = savingsAccount;
+    }
+
+    @Override
+    public String getOwner() {
+        return owner;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
     }
 }
