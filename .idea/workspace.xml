@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6da82d29-1743-4390-a894-be8e8f6f80da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/be/vdab/banksysteem/ZichtRekening.java" afterDir="false" />
+    <list default="true" id="6da82d29-1743-4390-a894-be8e8f6f80da" name="Default Changelist" comment="&quot;PersonClass&quot;">
+      <change afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/BankApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OPLOSSING OPDRACHT 14" beforeDir="false" afterPath="$PROJECT_DIR$/OPLOSSING OPDRACHT 14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/GeneralAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/GeneralAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/vdab/banksystem/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/vdab/banksystem/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -46,6 +49,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="be.vdab.banksystem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -75,10 +81,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;PersonClass&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;PersonClass&quot;" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="381" y="249" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593788467407">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="381" y="249" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.835@0.23.1440.835" timestamp="1593788467407" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1593863788816">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1593863788816" />
   </component>
 </project>

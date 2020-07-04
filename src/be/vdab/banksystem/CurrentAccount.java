@@ -1,19 +1,24 @@
 package be.vdab.banksystem;
 
 public class CurrentAccount extends GeneralAccount{
-    private int amount;
-    private SavingsAccount savings1 = new SavingsAccount("savings1");
+    private int amountOnCurrentAccount;
+    private SavingsAccount savings1 = new SavingsAccount();
 
-    public CurrentAccount(int totalamount, int amount) {
+    public CurrentAccount(int totalamount) {
         super(totalamount);
-        this.amount = amount;
+    }
+
+    public CurrentAccount(int totalamount, int amountOnCurrentAccount, int totalAmountOnSavings) {
+        super(totalamount = amountOnCurrentAccount + totalAmountOnSavings);
+        this.amountOnCurrentAccount = amountOnCurrentAccount;
+        this.totalAmountOnSavings = totalAmountOnSavings;
     }
 
     public int getAmount() {
-        return amount;
+        return amountOnCurrentAccount;
     }
 
     public void setAmount(int amount) {
-        this.amount = amount;
+        this.amountOnCurrentAccount = amount;
     }
 }
